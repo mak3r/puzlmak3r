@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+### LOCAL OPS ###
+docker-auth.sh
+scratch
