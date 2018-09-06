@@ -3,6 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
+    print( '{', 'stl-upload:', '{', 'method:', ' hello_world', '}', '}')
     return 'Flask Dockerized'
 
 if __name__ == '__main__':
