@@ -106,4 +106,4 @@ venv.bak/
 ### LOCAL OPS ###
 docker-auth.sh
 scratch
-stl-upload.cid
+*.cid
