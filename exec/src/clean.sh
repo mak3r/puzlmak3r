@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ## stop the currently running contaner
-docker stop $(cat stl-upload-test.cid)
+docker stop $(cat ../../cidrefs/stl-upload.cid)
 ## remove the cid file
-rm ./stl-upload-test.cid
+rm ../../cidrefs/stl-upload.cid
 ## Remove all stopped containers
 docker rm $(docker ps --filter status=exited -a -q)
 ## Remove dangling docker images
