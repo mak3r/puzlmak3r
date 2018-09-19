@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## clean
-./exec/test/clean-get.sh
+./exec/test/clean-post.sh
 # for now we assume the build is there
 # in a moment, we'll have to get the ip address and 
 # update the dockerfile with an environment variable to make this test harness work
