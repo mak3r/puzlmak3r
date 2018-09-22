@@ -1,2 +1,4 @@
-curl -s $TARGET_IP:4555 -o out.txt 
-cmp --silent test-post.txt out.txt; echo $?
+#!/bin/bash
+
+curl --form 'file=@./$POST_TEST_IMAGE' $TARGET_IP:4555/upload
+#cmp --silent test-post.txt out.txt; echo $?
