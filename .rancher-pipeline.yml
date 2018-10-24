@@ -2,7 +2,7 @@ stages:
 - name: build
   steps:
   - publishImageConfig:
-      dockerfilePath: ./uploader/web/Dockerfile
+      dockerfilePath: ./src/uploader/web/Dockerfile
       buildContext: .
       tag: mak3r/cli-slic3r
       registry: 127.0.0.1:34888
