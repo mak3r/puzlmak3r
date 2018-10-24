@@ -3,8 +3,9 @@ stages:
   steps:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
-      buildContext: .
+      buildContext: ./uploader/web
       tag: mak3r/cli-slic3r
+      registry: 127.0.0.1:34888
 - name: deploy
   steps:
   - applyYamlConfig:
