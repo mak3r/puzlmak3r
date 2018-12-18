@@ -15,4 +15,4 @@ docker build -t stl-slicer:local ./src/slicer
 docker run --cidfile ./cidrefs/stl-slicer.cid stl-slicer:local
 
 ## remove stl from build area
-rm -f "./3d/model001.stl"
+rm -f "./src/slicer/model001.stl"
