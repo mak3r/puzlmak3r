@@ -1,0 +1,13 @@
+stages:
+- name: build
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./src/uploader/web/Dockerfile
+      buildContext: .
+      tag: mak3r/cli-slic3r
+      registry: 127.0.0.1:34888
+- name: deploy
+  steps:
+  - applyYamlConfig:
+      path: ./deployment.yaml
+timeout: 60
