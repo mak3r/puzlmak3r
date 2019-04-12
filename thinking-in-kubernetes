@@ -1,0 +1,23 @@
+Title: Thinking in Kubernetes
+
+Description: Kubernetes is an open source container orchestration platform which challenges the way we architect software solutions. While most developers today are aware of kubernetes, the majority of institutional knowledge in both enterprise and education is still operating on legacy architectural practices like object oriented design. To move forward as an industry we must all start thinking and developing our software in terms of container orchestration.  
+
+Abstract: Kubernetes is an open source container orchestration platform which challenges us to change our thinking when it comes to architecting software. Our traditional software development methodologies are still relevant but there is a new kid in town when it comes to software solution architecture. Kubernetes is just one of many possible container orchestration platforms. According to CNCF, kubernetes is the most widely adopted and used orchestration platform available. Container orchestration is being used as the foundation for a new software in every industry from retail to finance, machine learning and rocket science. 
+
+Beginning with a practical problem statement we will walk through how the solution might be architected under multiple paradigms. We'll review a plausible OO architectural solution, a continer only architectural solution and finally two different architectural models for developing the same application in Kubernetes. As with any architecture, we will explore the drawbacks and benefits that each solution brings to the problem. Criteria for evaluating our proposed solutions will include:
+
+Project development time
+Breaking down tasks for a team
+SDLC
+Application Lifecycle management
+Operational efficiency
+Operational management
+Scalability
+Availability
+Reliability
+
+To get the most out of this presentation, participants should have at least some knowledge of
+UML
+OOD/OOP
+Containers
+Basic understanding of container orchestration would be helpful
